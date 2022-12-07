@@ -1,74 +1,39 @@
-# SolidStart
+# To Do List App React (V1)
 
-![solid (3)](https://user-images.githubusercontent.com/43764894/199539679-a1b9fbcb-3ec5-4fd7-b2d9-5cc25b248295.png)
+To Do List App React JS by WebStylePress (Add, Edit, Update, Delete, Toggle Tasks)
 
+## How to Use
 
+Clone or download repo
+NodeJS / NPM / Yarn should be installed in your PC
 
-A Solid Quickstart template that will get you started with everything you need to build a Solid project, powered by [`solid-start`](https://github.com/ryansolid/solid-start/tree/master/packages/solid-start);
+Open terminal or Git for Windows (Git Bash)
+Run these commands:
 
-Click the below button to quickly create a new repo, create a new Netlify project, and deploy!
+### Install Dependencies
 
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/solid-quickstart?utm_campaign=template-team&utm_source=dtn-button&utm_medium=dtn-button&utm_term=solid-qt-dtn-button&utm_content=solid-qt-dtn-button)
+yarn install
 
-## Table of Contents
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Building](#building)
-- [Deploying using the Netlify CLI](#deploying-using-the-netlify-cli)
+OR
 
-## Project Structure
-
-Inside of your Solidjs project, you'll see the following folders and files:
-
-```
-/
-├── public/
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   └── Counter.css
-│   │   └── Counter.tsx
-│   └── routes/
-│       └── [...404].tsx
-│       └── index.tsx
-├── entry-client.tsx
-├── entry-server.tsx
-├── root.css
-├── root.tsx
-├── package.json
-└── vite.config.json
-```
-
-## Getting Started
-
-If you want to get started locally, you can clone the project, install the dependencies and run the dev command!
-
-```
-git clone https://github.com/netlify-templates/solid-quickstart.git
-cd solid-quickstart
 npm install
-npm run dev
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
-## Building
+### Run app
 
-Solid apps are built with _adapters_, which optimise your project for deployment to different environments.
+yarn start
 
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different adapter, add it to the `devDependencies` in `package.json` and specify in your `vite.config.js`.
+OR
 
-## Deploying using the Netlify CLI
-- Install the Netlify CLI globally `npm install netlify-cli -g`
-    
-- Run `npm run build`
+npm start
 
-- Then use the `netlify deploy` for a deploy preview link or `netlify deploy --prod` to deploy to production
+### YouTube Tutorial URL
 
-Here are a few other ways you can deploy this template:
-    
-- Use the Netlify CLI's create from template command `netlify sites:create-template solid-quickstart` which will create a repo, Netlify project, and deploy it
-    
-- If you want to utilize continuous deployment through GitHub webhooks, run the Netlify command `netlify init` to create a new project based on your repo or `netlify link` to connect your repo to an existing project
+Title: To Do List App Project in ReactJS | Full React JS Project for Beginners from Scratch
 
-Hope this template helps :) Happy coding 👩🏻‍💻!
+https://youtu.be/TmDNBEdHzVs
+
+### To Do List App React (V2) [Update]
+
+Tutorial: https://youtu.be/E2CWxv5hOso
+
+Code: https://github.com/webstylepress/To-Do-List-App-React-V2-
